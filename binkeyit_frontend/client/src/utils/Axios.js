@@ -1,7 +1,9 @@
 import axios from 'axios';
+import baseURL from '../common/SummaryApi'
 
 const Axios = axios.create({
-  baseURL: 'http://localhost:8080/api', // ✅ points to your backend base URL
+
+  baseURL : baseURL + '/api', // ✅ points to your backend base URL
   withCredentials: true // optional, if using cookies/sessions
 });
 
