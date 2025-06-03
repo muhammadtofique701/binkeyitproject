@@ -5,9 +5,13 @@ import { deleteSubCategoryController, updateSubCategoryController } from "../con
 
 const categoryRouter = Router();
 
+
+
 categoryRouter.post("/add-category",auth,AddCategoryController);
 categoryRouter.get("/get",getCategoryController)
 categoryRouter.put('/update',auth,updateSubCategoryController)
 categoryRouter.delete('/delete',auth,deleteSubCategoryController)
+
+
 
 export default categoryRouter;
