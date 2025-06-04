@@ -72,6 +72,7 @@ function App() {
   
   return (  
   <GlobalProvider>
+
     <Header/>
     <main className='min-h-[83vh]'>
       <Outlet/>
@@ -84,6 +85,7 @@ function App() {
         <CartMobileLink/>
       )
     }
+    
   </GlobalProvider>
   )
 }

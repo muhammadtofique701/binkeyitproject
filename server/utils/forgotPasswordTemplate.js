@@ -35,7 +35,7 @@ const forgotPasswordTemplate = ({ name, otp }) => {
             <p>You requested to reset your password. Please use the OTP below to proceed:</p>
             <div class="otp">${otp}</div>
             <p>This OTP is valid for 10 minutes. If you didn't request this, you can safely ignore this email.</p>
-            <p>Thanks,<br>The Binkeyit Team</p>
+            <p>Thanks,<br>The Bazaaristan Team</p>
         </div>
     </body>
     </html>

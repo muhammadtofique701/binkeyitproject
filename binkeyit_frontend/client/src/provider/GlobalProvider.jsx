@@ -131,6 +131,7 @@ const GlobalProvider = ({ children }) => {
 
 
     return (
+
         <GlobalContext.Provider value={{
             fetchCartItem,
             updateCartItem,
@@ -142,6 +143,7 @@ const GlobalProvider = ({ children }) => {
         }}>
             {children}
         </GlobalContext.Provider>
+        
     );
 };
 
